@@ -1,0 +1,23 @@
+Create a parent/child inheritance relationship:
+
+class Person
+  attr_accessor :name
+
+  def initialize(name)
+     @name = name
+  end
+  
+end
+
+class Student < Person
+  attr_accessor :school
+  
+  def initialize(name, school)
+    super(school)
+    @school = school
+  end
+  
+end
+
+Create some instances to test your relationship
+
