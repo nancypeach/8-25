@@ -1,0 +1,13 @@
+
+Compentencies
+
+Inheritance is when a child class “inherits” methods and attributes from a parent class, for example, a student is a person
+Composition is when an object class contains many of another class, for example, a school has many students
+Composition allows you to be more flexible in your code, your classes don’t have to follow strict rules
+Inheritance, in contrast, brings more order to your code, so that your classes are organized and make more sense
+Generally, we want to use composition over inheritance unless it’s a no-brainer
+
+
+Applications
+Know the difference between inheritance and composition
+Know when to use one over the other
