@@ -21,3 +21,38 @@ end
 
 Create some instances to test your relationship
 
+Now create a composition relationship: 
+
+class Movement
+  def run
+    puts "running"
+  end
+  
+  def crawl
+    puts "crawling"
+  end
+end
+
+class Baby
+  def initialize
+    @movement = Movement.new
+  end
+  
+  def move
+    @movement.crawl
+  end
+  
+end
+
+class Athlete
+  def initialize
+    @movement = Movement.new
+  end
+  
+  def move
+    @movement.run
+  end
+
+end
+
+Test it out with some instances
